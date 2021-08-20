@@ -6,6 +6,7 @@ A bridge between WhatsApp and Telegram.
 
 This creates two listeners, one for WhatsApp and another for a Telegram bot. When the WhatsApp listener receives a message it relays the content to the Telegram bot, which sends it to the owner. In order to send a message to WhatsApp, the owner must do so through the Telegram bot.
 
+Basically when a channel or a group posts anything this bot convert that into api and respond auto to whatsapp and sync further.
 **IMPORTANT WARNING:** it is possible that WhatApp will end up blocking the phone number used to connect through yowsup, **use at your own risk**.
 
 ## Usage
